@@ -1,0 +1,2280 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.128.952.0 (24.04)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Historico_PAS\",\"Colaboradores\",\"Campañas\",\"Zonas\",\"Estimaciones_Soja_Minagro\",\"Join_PAS_BASE_IGN\",\"Bridge\",\"Rindes Retaa Estimados\",\"Measure\",\"Rindes Base Estimados\",\"Departamentos PAS\",\"Departamentos Ministerio\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "measure": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "measure": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "degree": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "quota": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "extent": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.491
+                    }
+                  },
+                  {
+                    "portion": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "ration": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  },
+                  {
+                    "size": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.476
+                    }
+                  }
+                ]
+              },
+              "measure.sembrado_PAS": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "SembradoPAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sembrado PAS": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "SembradoPAS": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "sembrado helper": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "sembrado supporter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "sembrado aide": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "measure.sup_total_PAS": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "Sup_Total_PAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sup total PAS": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Sup_Total_PAS": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "PAS": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "total PAS": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sup aggregate pas": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "sup overall pas": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "aggregate pas": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "overall pas": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  },
+                  {
+                    "sup total helper": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "sup total supporter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "sup total aide": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "total helper": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total supporter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "total aide": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "Superficie Nacional (MHa)": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "measure.título_zonas": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "Título_Zonas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "título zonas": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Título_Zonas": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  }
+                ]
+              },
+              "measure.vol_PAS": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "Vol_PAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vol PAS": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Vol_PAS": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "vol helper": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "vol supporter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  },
+                  {
+                    "vol aide": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5
+                    }
+                  }
+                ]
+              },
+              "measure.vol_total_PAS": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Measure",
+                    "ConceptualProperty": "Vol_Total_PAS"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "vol total PAS": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "Vol_Total_PAS": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "vol aggregate pas": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "vol overall pas": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.591
+                    }
+                  },
+                  {
+                    "vol total helper": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "vol total supporter": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  },
+                  {
+                    "vol total aide": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.508
+                    }
+                  }
+                ]
+              },
+              "zona": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Zonas"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "zona": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              },
+              "zona.id_zona": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Zonas",
+                    "ConceptualProperty": "id"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "id zona": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "id_Zona": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "identification zona": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identity zona": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "identifier zona": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.6
+                    }
+                  },
+                  {
+                    "credential zona": {
+                      "Source": {
+                        "Agent": "OfficeThesaurus"
+                      },
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.582
+                    }
+                  }
+                ]
+              },
+              "zona.zona": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Zonas",
+                    "ConceptualProperty": "Zona"
+                  }
+                },
+                "NameType": "Name",
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "zona": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "zona name": {
+                      "State": "Generated"
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "measure_has_distribucion_PAS_ha": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.distribucion_PAS_ha"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.distribucion_PAS_ha": {
+                    "Target": {
+                      "Entity": "measure.distribucion_PAS_ha"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_distribucion_PAS_vol": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.distribucion_PAS_vol"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.distribucion_PAS_vol": {
+                    "Target": {
+                      "Entity": "measure.distribucion_PAS_vol"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_proporcion_all": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.proporcion_all"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.proporcion_all": {
+                    "Target": {
+                      "Entity": "measure.proporcion_all"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_proporcion_campana": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.proporcion_campana"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.proporcion_campana": {
+                    "Target": {
+                      "Entity": "measure.proporcion_campana"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_proporcion_zona_PAS": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.proporcion_zona_PAS"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.proporcion_zona_PAS": {
+                    "Target": {
+                      "Entity": "measure.proporcion_zona_PAS"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_sembrado_PAS_ministerio": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.sembrado_PAS_ministerio"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.sembrado_PAS_ministerio": {
+                    "Target": {
+                      "Entity": "measure.sembrado_PAS_ministerio"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_sup__sembrada_weighted_by_Sup_Total_per_campaña": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.sup__sembrada_weighted_by_Sup_Total_per_campaña"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.sup__sembrada_weighted_by_Sup_Total_per_campaña": {
+                    "Target": {
+                      "Entity": "measure.sup__sembrada_weighted_by_Sup_Total_per_campaña"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_título_zonas": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.título_zonas"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.título_zonas": {
+                    "Target": {
+                      "Entity": "measure.título_zonas"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "measure_has_volumen_campana_desagregado": {
+                "Binding": {
+                  "ConceptualEntity": "Measure"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "measure.volumen_campana_desagregado"
+                      },
+                      "Subject": {
+                        "Role": "measure"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "measure": {
+                    "Target": {
+                      "Entity": "measure"
+                    }
+                  },
+                  "measure.volumen_campana_desagregado": {
+                    "Target": {
+                      "Entity": "measure.volumen_campana_desagregado"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "zona_has_id_zona": {
+                "Binding": {
+                  "ConceptualEntity": "Zonas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "zona.id_zona"
+                      },
+                      "Subject": {
+                        "Role": "zona"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "zona": {
+                    "Target": {
+                      "Entity": "zona"
+                    }
+                  },
+                  "zona.id_zona": {
+                    "Target": {
+                      "Entity": "zona.id_zona"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "zona_has_zona": {
+                "Binding": {
+                  "ConceptualEntity": "Zonas"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "zona.zona"
+                      },
+                      "Subject": {
+                        "Role": "zona"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "zona.zona"
+                      },
+                      "Subject": {
+                        "Role": "zona"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "zona": {
+                    "Target": {
+                      "Entity": "zona"
+                    }
+                  },
+                  "zona.zona": {
+                    "Target": {
+                      "Entity": "zona.zona"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "3.1.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "Colaboradores",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Origen = Sql.Database(\"BC-RETA\", \"Estimaciones_Copia\"),",
+          "    dbo_Colaboradores = Origen{[Schema=\"dbo\",Item=\"Colaboradores\"]}[Data],",
+          "    #\"Removed Columns\" = Table.RemoveColumns(dbo_Colaboradores,{\"Telefono\", \"Celular\", \"e_mail\", \"obs\", \"poligono\", \"id_usuario\", \"fec_ultimaMod\", \"id_usuarioMod\", \"Emp_vinculada\", \"estado\", \"direccion\", \"cp\", \"id_zona_retaa\", \"id_estado_retaa\", \"obs_retaa\", \"latitud\", \"logitud\"})",
+          "in",
+          "    #\"Removed Columns\""
+        ],
+        "kind": "m",
+        "lineageTag": "4ef63b6b-bd6a-4498-ab7a-98649922d492",
+        "queryGroup": "Facts Tables"
+      },
+      {
+        "name": "Bridge",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\martinlopez\\OneDrive - Bolsa de Cereales de Buenos Aires\\Users\\Escritorio_ABC\\Proyectos\\Proyecto_CIARA_CEC\\Calculo_idBCBA.xlsm\"), null, true),",
+          "    Join_Ministerio_Sheet = Source{[Item=\"Join_Ministerio\",Kind=\"Sheet\"]}[Data],",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Join_Ministerio_Sheet, [PromoteAllScalars=true]),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"des_ab\", type text}, {\"des_dto\", type text}, {\"id_dto\", Int64.Type}, {\"id_prov\", Int64.Type}, {\"Provincia_Departamento\", type text}, {\"id_Zona\", Int64.Type}, {\"idMinisterio\", Int64.Type}})",
+          "in",
+          "    #\"Changed Type\""
+        ],
+        "kind": "m",
+        "lineageTag": "d17f5d47-46c1-48a6-b648-8a0fafd2aa52"
+      },
+      {
+        "name": "Join_PAS_BASE_IGN",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Csv.Document(File.Contents(\"C:\\Users\\martinlopez\\OneDrive - Bolsa de Cereales de Buenos Aires\\Users\\Escritorio_ABC\\Proyectos\\Proyecto_GDM\\Dimension_Tables\\Join_PAS_BASE_IGN.csv\"),[Delimiter=\";\", Columns=2, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"FID_DEPART_IGN\", Int64.Type}, {\"id_dto\", Int64.Type}}),",
+          "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"FID_DEPART_IGN\", \"cod_depto\"}}),",
+          "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"cod_depto\", type text}})",
+          "in",
+          "    #\"Changed Type1\""
+        ],
+        "kind": "m",
+        "lineageTag": "a564d7a4-c00d-458c-b7df-15835ccefda3"
+      },
+      {
+        "name": "Rindes Retaa Estimados",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Source = Web.BrowserContents(\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSZWVRHVUvXW_UmTEYjKOLLdEZi7t3rRG1GzhgPepeYLWqDuBWnwSdlnJ8t6sOQwg/pubhtml\"),",
+          "    #\"Extracted Table From Html\" = Html.Table(Source, {{\"Column1\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(1)\"}, {\"Column2\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(2)\"}, {\"Column3\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(3)\"}, {\"Column4\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(4)\"}, {\"Column5\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(5)\"}, {\"Column6\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(6)\"}, {\"Column7\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(7)\"}, {\"Column8\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(8)\"}, {\"Column9\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(9)\"}, {\"Column10\", \"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR > :nth-child(10)\"}}, [RowSelector=\"DIV:nth-child(2) > DIV.ritz.grid-container > TABLE.waffle > * > TR\"]),",
+          "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Extracted Table From Html\",{{\"Column1\", Int64.Type}, {\"Column2\", type text}, {\"Column3\", type text}, {\"Column4\", type text}, {\"Column5\", type text}, {\"Column6\", type text}, {\"Column7\", type text}, {\"Column8\", type text}, {\"Column9\", type text}, {\"Column10\", type text}}),",
+          "    #\"Removed Top Rows\" = Table.Skip(#\"Changed Type\",1),",
+          "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Removed Top Rows\", [PromoteAllScalars=true]),",
+          "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"1\", Int64.Type}, {\"id_Zona\", Int64.Type}, {\"id_colaborador\", Int64.Type}, {\"Nombre\", type text}, {\"Apellido\", type text}, {\"departamento\", type text}, {\"localidad\", type text}, {\"Soja 1era (qq)\", Int64.Type}, {\"Soja 2da\", Int64.Type}, {\"Observaciones\", type text}})",
+          "in",
+          "    #\"Changed Type1\""
+        ],
+        "kind": "m",
+        "lineageTag": "e281cf92-401d-4c18-8657-de71d3305004"
+      }
+    ],
+    "queryGroups": [
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "0"
+          }
+        ],
+        "folder": "Facts Tables"
+      },
+      {
+        "annotations": [
+          {
+            "name": "PBI_QueryGroupOrder",
+            "value": "1"
+          }
+        ],
+        "folder": "Dimension Tables"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "94477925-9a29-4982-87d0-408fd6692905",
+        "fromColumn": "id_campaña",
+        "fromTable": "Rindes Base Estimados",
+        "toColumn": "id_campañas",
+        "toTable": "Campañas"
+      },
+      {
+        "name": "cbdb5764-240d-4055-b712-0ba74ac5f6dc",
+        "fromColumn": "id_dto",
+        "fromTable": "Rindes Base Estimados",
+        "toColumn": "id_dto",
+        "toTable": "Departamentos PAS"
+      },
+      {
+        "name": "f6d920bc-6994-4874-821b-bc5c717485c9",
+        "fromColumn": "id_Ministerio",
+        "fromTable": "Rindes Base Estimados",
+        "toColumn": "id_Ministerio",
+        "toTable": "Departamentos Ministerio"
+      },
+      {
+        "name": "414bac2d-1d5e-4992-8895-0cf400cb9330",
+        "fromColumn": "id_zona",
+        "fromTable": "Rindes Base Estimados",
+        "toColumn": "id",
+        "toTable": "Zonas"
+      },
+      {
+        "name": "a016362c-8a8b-4252-abf9-300dc1cfe9bd",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "id_Ministerio",
+        "fromTable": "Departamentos Ministerio",
+        "toColumn": "idMinisterio",
+        "toTable": "Estimaciones_Soja_Minagro"
+      },
+      {
+        "name": "171130fd-751b-4927-acdf-939687874b20",
+        "fromColumn": "id_campañas",
+        "fromTable": "Historico_PAS",
+        "toColumn": "id_campañas",
+        "toTable": "Campañas"
+      },
+      {
+        "name": "7d5bf28e-f83d-45f1-a5da-10d2b083a441",
+        "fromColumn": "id_Zona",
+        "fromTable": "Historico_PAS",
+        "toColumn": "id",
+        "toTable": "Zonas"
+      }
+    ],
+    "sourceQueryCulture": "es-AR",
+    "tables": [
+      {
+        "name": "DateTableTemplate_d2d1f7f9-4eff-4f90-80e8-cbfd032380f6",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "9e1fd0c4-6e29-4107-94ff-95bd86b93054",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "32a26dd8-d7d8-48eb-9f90-f05e8de3cb6d",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "885e92ee-e68c-400e-a38b-859264c41428",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "8807183d-5b02-4d56-81ad-6a8f8cad805f",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "9a7aba75-ce66-4f10-860c-35206ce73e1a",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "981c5dc6-de71-4100-af7e-eb6d1f0d5756",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "lineageTag": "5d223466-92ae-492e-8700-6f7772653b43",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "7ea85091-e603-4cae-b28b-8612519a72ea",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "f74de30d-0679-4957-86cd-fcec568eea69",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "51ea636f-d6e6-472c-a908-cece3be8dbe1",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "2a36e372-95fd-4a1e-9adb-03dd12bee4e7",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "7dafaaa3-f937-4f03-b58d-9690e5590175"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "6f486b7c-9d79-44a9-b865-10538d151a03",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_d2d1f7f9-4eff-4f90-80e8-cbfd032380f6-6a743ba0-19c1-4a3a-8db2-8b3a91e2a7ef",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Measure",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "lineageTag": "027608b7-96c3-4658-b79a-cea1720baf20",
+        "measures": [
+          {
+            "name": "SembradoPAS",
+            "expression": "SUM (Historico_PAS[Sembrado (Ha)])",
+            "formatString": "0",
+            "lineageTag": "829cddf7-38ce-4bf0-9a59-2f2125c3dfd0"
+          },
+          {
+            "name": "Sup_Total_PAS",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isDecimal\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "    SUM(Historico_PAS[Sembrado (Ha)])"
+            ],
+            "formatString": "#,0",
+            "lineageTag": "8b123b04-9f82-4d9f-b2ec-d2605c9543f9"
+          },
+          {
+            "name": "Título_Zonas",
+            "expression": [
+              "",
+              "VAR Zona = SELECTEDVALUE(Zonas[Zona])",
+              "RETURN",
+              "IF (",
+              "    Zona = \"\",",
+              "    \"Superficie Nacional (MHa)\",",
+              "    \"Superficie Zona\" & \" \"",
+              "        & Zona &\" (MHa)\" ",
+              ")",
+              ""
+            ],
+            "lineageTag": "7065906c-bda7-4ba0-95a1-e8de99a3f4a9"
+          },
+          {
+            "name": "Vol_Total_PAS",
+            "expression": "SUM(Historico_PAS[Producción(MTn)]) / 1000000",
+            "formatString": "0.0",
+            "lineageTag": "abec9b28-66e6-485a-8d64-6a3489ad103b"
+          },
+          {
+            "name": "Vol_PAS",
+            "expression": "SUM(Historico_PAS[Producción(MTn)]) ",
+            "formatString": "0",
+            "lineageTag": "6623de9c-23d3-4e60-9188-9bea3ceca7c9"
+          },
+          {
+            "name": "Departamento",
+            "expression": "SELECTEDVALUE('Departamentos Ministerio'[Departamentos])",
+            "lineageTag": "3a0d3a14-d64a-42c3-bae0-b92d8883a03c"
+          },
+          {
+            "name": "Rinde Estimado",
+            "expression": [
+              "",
+              "VAR Rinde_Promedio = AVERAGEA( 'Rindes Base Estimados'[Rinde estimado] )",
+              "RETURN",
+              "IF(Rinde_Promedio > 0,",
+              "    AVERAGEA( 'Rindes Base Estimados'[Rinde estimado] ),",
+              "    \"S/D\"",
+              ")"
+            ],
+            "formatString": "0.0",
+            "lineageTag": "c12bc95a-3a84-4779-a59b-0cd69709b2bc"
+          },
+          {
+            "name": "Superficie Soja",
+            "expression": "DIVIDE(SUM(Zonas[Superficie]), 1000000)",
+            "formatString": "0",
+            "lineageTag": "b61b61e7-405c-4b9f-9cb8-67a0bad9895b"
+          },
+          {
+            "name": "Título_Rindes",
+            "expression": [
+              "",
+              "VAR Zona = SELECTEDVALUE(Zonas[Zona])",
+              "RETURN",
+              "IF (",
+              "    Zona = \"\",",
+              "    \"Rinde Nacional estimado (qq/Ha)\",",
+              "    \"Rinde Zona\" & \" \"",
+              "        & Zona &\" estimado\" & \" (qq/Ha)\" ",
+              ")"
+            ],
+            "lineageTag": "8f28c162-89b9-462f-bc13-1b5554445e2c"
+          },
+          {
+            "name": "Título_Rindes_Departamento",
+            "expression": [
+              "",
+              "VAR Depto =",
+              "    SELECTEDVALUE ( 'Departamentos Ministerio'[Departamentos])",
+              "RETURN",
+              "    IF (",
+              "        Depto = \"\",",
+              "        \"Rinde estimado zonal (qq/Ha)\",",
+              "        \"Rinde\" & \" \" & Depto & \" estimado\" & \" (qq/Ha)\"",
+              "    )",
+              ""
+            ],
+            "lineageTag": "8fecc88f-b461-45fc-8b01-81b0d49942a1"
+          },
+          {
+            "name": "Datos_al",
+            "expression": [
+              "",
+              "    \"Datos al:\"& \" \" & \" 23/04/24\""
+            ],
+            "lineageTag": "6cab548e-866a-4beb-8e33-07d6f92295c7"
+          },
+          {
+            "name": "Cantidad",
+            "expression": "COUNTROWS('Rindes Base Estimados')",
+            "formatString": "0",
+            "lineageTag": "f1d20afd-b26d-417d-967f-1f1c3600d65b"
+          },
+          {
+            "name": "Minimo_Grafico_Superficie",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": [
+              "",
+              "    VAR Id_Zona_Seleccionado = SELECTEDVALUE(Zonas[id])",
+              "    VAR Superficie_Minima = ",
+              "    CALCULATE(",
+              "        MIN(Historico_PAS[Sembrado (Ha)]), ",
+              "        Zonas[id] = Id_Zona_Seleccionado",
+              "    )",
+              "RETURN",
+              "    DIVIDE(Superficie_Minima,",
+              "            2,",
+              "            0)",
+              ""
+            ],
+            "lineageTag": "c237e160-7a25-4575-9425-f04c23437340"
+          },
+          {
+            "name": "Titulo Gráfico",
+            "expression": [
+              "",
+              "    CALCULATE (",
+              "        \"Superficie sembrada de la zona \"",
+              "            & SELECTEDVALUE ( Zonas[Zona], \"Nacional\" )",
+              "         & \" (Ha)\" & \"\")",
+              "    "
+            ],
+            "lineageTag": "421bd094-8758-4aee-a17b-3e342c9e756a"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Measure-d5612086-11d7-40c7-a101-f5dc610a567a",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WMlSKjQUA\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", Int64.Type}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Column1\"})",
+                "in",
+                "    #\"Removed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Zonas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "11cf016f-0e48-490d-869e-a13f8d6bdd8d",
+            "sourceColumn": "id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Zona",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0e46baf1-0705-4ee6-b7e9-7b925482351b",
+            "sourceColumn": "Zona",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Superficie",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ad27a84e-1829-4fc3-a328-53d67ab26ca0",
+            "sourceColumn": "Superficie",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "d4c61bac-4c79-4d7f-a2f3-2bd881d573fa",
+        "partitions": [
+          {
+            "name": "Zonas-4a9733da-0db2-418f-91e3-4fdf4e07b179",
+            "mode": "import",
+            "queryGroup": "Dimension Tables",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\martinlopez\\OneDrive - Bolsa de Cereales de Buenos Aires\\Users\\Escritorio_ABC\\Proyectos\\Proyecto_CIARA_CEC\\Zonas.csv\"),[Delimiter=\";\", Columns=3, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"id_Zona\", Int64.Type}, {\"Zona\", type text}}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"id_Zona\", \"id\"}}),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Renamed Columns\",{{\"Superficie\", Int64.Type}}),",
+                "    #\"Valor reemplazado\" = Table.ReplaceValue(#\"Changed Type1\",\"Nacional\",\"TOTAL\",Replacer.ReplaceText,{\"Zona\"})",
+                "in",
+                "    #\"Valor reemplazado\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Rindes Base Estimados",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Rinde estimado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "1c37273d-fd1d-4c2b-a2f1-691f09ed6bfd",
+            "sourceColumn": "Rinde estimado",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "id_zona",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f60011bb-138b-4786-8994-7d351a345623",
+            "sourceColumn": "id_zona",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_campaña",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "1c40085b-96b3-4c8b-927b-8151e9f2125e",
+            "sourceColumn": "id_campaña",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_dto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "10381914-1aad-4332-b01b-ccc3ce26470d",
+            "sourceColumn": "id_dto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_Ministerio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "52c1db61-2de5-42a5-b065-3003d3b0819f",
+            "sourceColumn": "id_Ministerio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nivelTec",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "261a49cc-73b9-4418-a1f9-7ab86859f4dd",
+            "sourceColumn": "nivelTec",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "tipoEstadoNivel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "0fcf3553-d7af-4e99-b2a2-4937c9652302",
+            "sourceColumn": "tipoEstadoNivel",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ObsPensasInvertir",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bdbe236a-064a-4636-a22c-9bf60d392204",
+            "sourceColumn": "ObsPensasInvertir",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "obsEnfatizar",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "94cf1f9e-f961-403c-838e-a74abdf2ed8c",
+            "sourceColumn": "obsEnfatizar",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0d3e0fde-d4ec-4a05-86ea-d4ef43cfcdc6",
+        "partitions": [
+          {
+            "name": "Rindes Base Estimados-c2d4223e-8851-4841-9d82-b43c23f0e443",
+            "mode": "import",
+            "queryGroup": "Facts Tables",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = ",
+                "let",
+                "    Origen = Sql.Database(\"BC-RETA\", \"Estimaciones_Copia\"),",
+                "    dbo_transacciones = Origen{[Schema=\"dbo\",Item=\"transacciones\"]}[Data],",
+                "    #\"Filtered Rows\" = Table.SelectRows(dbo_transacciones, each ([estima_rinde] <> null)),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Filtered Rows\",{\"obs\", \"pp\", \"id_llamado\", \"id_poligono\", \"id_usuarioMod\", \"Perdido\", \"Perdido_informe\", \"rinde_cosecha_historico\", \"var_siembra_int_informe\", \"avance_siembra_informe\", \"estima_rinde_informe\", \"avc_cosecha_informe\", \"rinde_cosecha_informe\", \"primera\", \"segunda\", \"estima_rinde_estepardo\", \"Obs_gral\", \"rinde_max\", \"rinde_min\", \"var_siembra_int\", \"avance_siembra\", \"avc_cosecha\"}),",
+                "    #\"Filtered Rows2\" = Table.SelectRows(#\"Removed Columns\", each ([id_grano] = 5 or [id_grano] = 6)),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Filtered Rows2\",{{\"rinde_cosecha\", Int64.Type}}),",
+                "    #\"Filtered Rows1\" = Table.SelectRows(#\"Changed Type\", each ([id_campaña] = 13)),",
+                "    #\"Removed Columns1\" = Table.RemoveColumns(#\"Filtered Rows1\",{\"fecultimaMod\", \"fecha_Informe\", \"nroSemana\", \"año\"})",
+                "in",
+                "    #\"Removed Columns1\",",
+                "    #\"Merged Queries\" = Table.NestedJoin(Source, {\"id_colaborador\"}, Colaboradores, {\"id_colaborador\"}, \"Colaboradores\", JoinKind.LeftOuter),",
+                "    #\"Expanded Colaboradores\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Colaboradores\", {\"dto\"}, {\"dto\"}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Expanded Colaboradores\",{\"rinde_cosecha\", \"id_usuario\", \"fecalta\", \"id_trans\", \"id_tipo_periodo\", \"id_grano\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Removed Columns\",{{\"estima_rinde\", \"Rinde estimado\"}}),",
+                "    #\"Removed Columns1\" = Table.RemoveColumns(#\"Renamed Columns\",{\"id_colaborador\"}),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Removed Columns1\",{{\"dto\", \"id_dto\"}}),",
+                "    #\"Merged Queries1\" = Table.NestedJoin(#\"Renamed Columns1\", {\"id_dto\"}, Bridge, {\"id_dto\"}, \"Join_PAS_BASE_IGN\", JoinKind.LeftOuter),",
+                "    #\"Expanded Join_PAS_BASE_IGN\" = Table.ExpandTableColumn(#\"Merged Queries1\", \"Join_PAS_BASE_IGN\", {\"idMinisterio\"}, {\"idMinisterio\"}),",
+                "    #\"Renamed Columns2\" = Table.RenameColumns(#\"Expanded Join_PAS_BASE_IGN\",{{\"idMinisterio\", \"id_Ministerio\"}}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Renamed Columns2\", each true)",
+                "in",
+                "    #\"Filtered Rows\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Campañas",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_campañas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "4744719c-8cf4-4e41-a709-15dc0c227869",
+            "sourceColumn": "id_campañas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Campaña",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4f20087b-45f8-4a0a-a2c9-ec11b3889c30",
+            "sourceColumn": "Campaña",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "54fbe007-a93e-45b2-a6c3-52e8b992d919",
+        "partitions": [
+          {
+            "name": "Campañas-456c44a4-174a-4b99-b9b0-b2de45d66429",
+            "mode": "import",
+            "queryGroup": "Dimension Tables",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Sql.Database(\"BC-RETA\", \"Estimaciones_Copia\"),",
+                "    dbo_Año_campañas = Source{[Schema=\"dbo\",Item=\"Año_campañas\"]}[Data],",
+                "    #\"Renamed Columns\" = Table.RenameColumns(dbo_Año_campañas,{{\"id\", \"id_campañas\"}, {\"descripcion\", \"Campaña\"}}),",
+                "    #\"Filas filtradas\" = Table.SelectRows(#\"Renamed Columns\", each ([id_campañas] <> 0))",
+                "in",
+                "    #\"Filas filtradas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Departamentos PAS",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "id_dto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "418206d8-8014-493d-95f4-929c2663e9b5",
+            "sourceColumn": "id_dto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Departamento",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "12e11f24-ed21-41e0-b552-29a31a8f7ef6",
+            "sourceColumn": "Departamento",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "7a73211c-f139-4cd3-bfc2-6f5d9e41cdd6",
+        "partitions": [
+          {
+            "name": "Departamentos PAS-990bb556-a8af-461a-abe2-1c70407cb0a6",
+            "mode": "import",
+            "queryGroup": "Dimension Tables",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\martinlopez\\OneDrive - Bolsa de Cereales de Buenos Aires\\Users\\Escritorio_ABC\\Proyectos\\Proyecto_CIARA_CEC\\Calculo_idBCBA.xlsm\"), null, true),",
+                "    Join_Ministerio_Sheet = Source{[Item=\"Join_Ministerio\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Join_Ministerio_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"des_ab\", type text}, {\"des_dto\", type text}, {\"id_dto\", Int64.Type}, {\"id_prov\", Int64.Type}, {\"Provincia_Departamento\", type text}, {\"id_Zona\", Int64.Type}, {\"idMinisterio\", Int64.Type}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"des_ab\", \"id_prov\", \"Provincia_Departamento\", \"idMinisterio\", \"id_Zona\"}),",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Removed Columns\",{\"id_dto\", \"des_dto\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Reordered Columns\",{{\"des_dto\", \"Departamento\"}}),",
+                "    #\"Removed Duplicates\" = Table.Distinct(#\"Renamed Columns\", {\"id_dto\"})",
+                "in",
+                "    #\"Removed Duplicates\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Departamentos Ministerio",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Departamentos",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2c250d1c-4126-49d4-b73b-ad4349064b4e",
+            "sourceColumn": "Departamentos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cod_depto",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "767b1f3f-f8ab-4c4e-a457-b5edd34cf302",
+            "sourceColumn": "cod_depto",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_Ministerio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "a9b1ff29-a01e-4a49-ae6f-f61e7e2edbe5",
+            "sourceColumn": "id_Ministerio",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "0d18989e-4519-48c5-bb46-84de4869903c",
+        "partitions": [
+          {
+            "name": "Departamentos Ministerio-778e0866-71b2-4230-b40a-6b592865ef60",
+            "mode": "import",
+            "queryGroup": "Dimension Tables",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\martinlopez\\OneDrive - Bolsa de Cereales de Buenos Aires\\Users\\Escritorio_ABC\\Proyectos\\Proyecto_CIARA_CEC\\Calculo_idBCBA.xlsm\"), null, true),",
+                "    Join_Ministerio_Sheet = Source{[Item=\"Join_Ministerio\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Join_Ministerio_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"des_ab\", type text}, {\"des_dto\", type text}, {\"id_dto\", Int64.Type}, {\"id_prov\", Int64.Type}, {\"Provincia_Departamento\", type text}, {\"id_Zona\", Int64.Type}, {\"idMinisterio\", Int64.Type}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"des_ab\", \"id_dto\", \"id_prov\", \"Provincia_Departamento\", \"id_Zona\"}),",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Removed Columns\",{\"idMinisterio\", \"des_dto\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Reordered Columns\",{{\"idMinisterio\", \"cod_depto\"}, {\"des_dto\", \"Departamentos\"}}),",
+                "    #\"Duplicated Column\" = Table.DuplicateColumn(#\"Renamed Columns\", \"cod_depto\", \"cod_depto - Copy\"),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Duplicated Column\",{{\"cod_depto\", type text}}),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Changed Type1\",{{\"cod_depto - Copy\", \"id_Ministerio\"}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Renamed Columns1\",\"HIPOLITO YRIGOYEN\",\"H. YRIGOYEN\",Replacer.ReplaceText,{\"Departamentos\"}),",
+                "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Replaced Value\",\"GRAL JUAN MADARIAGA\",\"G. J. MADARIAGA\",Replacer.ReplaceText,{\"Departamentos\"}),",
+                "    #\"Replaced Value2\" = Table.ReplaceValue(#\"Replaced Value1\",\"MATARA\",\"JUAN F. ALBERDI\",Replacer.ReplaceText,{\"Departamentos\"}),",
+                "    #\"Replaced Value3\" = Table.ReplaceValue(#\"Replaced Value2\",\"ALMIRANTE\",\"A.\",Replacer.ReplaceText,{\"Departamentos\"})",
+                "in",
+                "    #\"Replaced Value3\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Estimaciones_Soja_Minagro",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "Name"
+          }
+        ],
+        "columns": [
+          {
+            "name": "idMinisterio",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "double",
+            "formatString": "0",
+            "lineageTag": "c3d2f280-c8eb-407f-aa06-60a3c17d6a24",
+            "sourceColumn": "idMinisterio",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Porcentaje del Total",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "f348e247-4bcb-4eb5-836b-709a07223854",
+            "sourceColumn": "Porcentaje del Total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Ranking Superficie",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ddd43ef9-473a-40d3-99ae-b4843f328596",
+            "sourceColumn": "Ranking Superficie",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "d272a4b9-ed97-4abe-bfac-8fba1e357968",
+        "partitions": [
+          {
+            "name": "Estimaciones_Soja_Minagro-a22970a7-f2f8-423d-8950-c125eb970cb1",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\martinlopez\\OneDrive - Bolsa de Cereales de Buenos Aires\\Users\\Escritorio_ABC\\Proyectos\\Proyecto_GDM\\Data\\Estimaciones_Soja_Minagro.csv\"),[Delimiter=\";\", Columns=10, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Cultivo\", type text}, {\"Campaña\", type text}, {\"Provincia\", type text}, {\"Departamento\", type text}, {\"idProvincia\", type text}, {\"idDepartamento\", type text}, {\"Sup. Sembrada\", Int64.Type}, {\"Sup. Cosechada\", Int64.Type}, {\"Producción\", Int64.Type}, {\"Rendimiento\", Int64.Type}}),",
+                "    #\"Removed Columns\" = Table.RemoveColumns(#\"Changed Type\",{\"Cultivo\"}),",
+                "    #\"Added Custom\" = Table.AddColumn(#\"Removed Columns\", \"idMinagro\", each [idProvincia]&\"\"&[idDepartamento]),",
+                "    #\"Changed Type1\" = Table.TransformColumnTypes(#\"Added Custom\",{{\"idMinagro\", Int64.Type}}),",
+                "    #\"Reordered Columns\" = Table.ReorderColumns(#\"Changed Type1\",{\"Campaña\", \"Provincia\", \"Departamento\", \"idProvincia\", \"idDepartamento\", \"idMinagro\", \"Sup. Sembrada\", \"Sup. Cosechada\", \"Producción\", \"Rendimiento\"}),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Reordered Columns\",{{\"idMinagro\", \"idMinisterio\"}}),",
+                "    #\"Removed Columns1\" = Table.RemoveColumns(#\"Renamed Columns\",{\"Provincia\", \"Departamento\", \"idProvincia\", \"idDepartamento\"}),",
+                "    #\"Filtered Rows\" = Table.SelectRows(#\"Removed Columns1\", each ([Campaña] = \"2021/22\")),",
+                "    #\"Removed Columns2\" = Table.RemoveColumns(#\"Filtered Rows\",{\"Sup. Cosechada\", \"Producción\", \"Rendimiento\", \"Campaña\"}),",
+                "    #\"Added Custom1\" = Table.AddColumn(#\"Removed Columns2\", \"Porcentaje del Total \", each ([Sup. Sembrada]*100)/16100000),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Added Custom1\",{{\"Porcentaje del Total \", type number}}),",
+                "    #\"Inserted Rounding\" = Table.AddColumn(#\"Changed Type2\", \"Round\", each Number.Round([#\"Porcentaje del Total \"], 3), type number),",
+                "    #\"Removed Columns3\" = Table.RemoveColumns(#\"Inserted Rounding\",{\"Porcentaje del Total \", \"Sup. Sembrada\"}),",
+                "    #\"Renamed Columns1\" = Table.RenameColumns(#\"Removed Columns3\",{{\"Round\", \"Porcentaje del Total\"}}),",
+                "    #\"Sorted Rows\" = Table.Sort(#\"Renamed Columns1\",{{\"Porcentaje del Total\", Order.Descending}}),",
+                "    #\"Added Index\" = Table.AddIndexColumn(#\"Sorted Rows\", \"Index\", 1, 1, Int64.Type),",
+                "    #\"Renamed Columns2\" = Table.RenameColumns(#\"Added Index\",{{\"Index\", \"Ranking Superficie\"}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Renamed Columns2\",1498,14098,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Replaced Value\",1435,14035,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value2\" = Table.ReplaceValue(#\"Replaced Value1\",1463,14063,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value3\" = Table.ReplaceValue(#\"Replaced Value2\",8256,82056,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value4\" = Table.ReplaceValue(#\"Replaced Value3\",8214,82014,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value5\" = Table.ReplaceValue(#\"Replaced Value4\",8242,82042,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value6\" = Table.ReplaceValue(#\"Replaced Value5\",8228,82028,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value7\" = Table.ReplaceValue(#\"Replaced Value6\",3077,30077,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value8\" = Table.ReplaceValue(#\"Replaced Value7\",3084,30084,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value9\" = Table.ReplaceValue(#\"Replaced Value8\",3056,30056,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value10\" = Table.ReplaceValue(#\"Replaced Value9\",3070,30070,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value11\" = Table.ReplaceValue(#\"Replaced Value10\",3098,30098,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value12\" = Table.ReplaceValue(#\"Replaced Value11\",4256,42056,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value13\" = Table.ReplaceValue(#\"Replaced Value12\",649,6049,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value14\" = Table.ReplaceValue(#\"Replaced Value13\",67,6007,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value15\" = Table.ReplaceValue(#\"Replaced Value14\",623,6203,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value16\" = Table.ReplaceValue(#\"Replaced Value15\",663,6063,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value17\" = Table.ReplaceValue(#\"Replaced Value16\",7421,74021,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value18\" = Table.ReplaceValue(#\"Replaced Value17\",7456,74056,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value19\" = Table.ReplaceValue(#\"Replaced Value18\",667,66007,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value20\" = Table.ReplaceValue(#\"Replaced Value19\",6656,66056,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value21\" = Table.ReplaceValue(#\"Replaced Value20\",3863,38063,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value22\" = Table.ReplaceValue(#\"Replaced Value21\",8270,82070,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value23\" = Table.ReplaceValue(#\"Replaced Value22\",8221,82021,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value24\" = Table.ReplaceValue(#\"Replaced Value23\",8291,82091,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value25\" = Table.ReplaceValue(#\"Replaced Value24\",9014,90014,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value26\" = Table.ReplaceValue(#\"Replaced Value25\",8691,86091,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value27\" = Table.ReplaceValue(#\"Replaced Value26\",667,66007,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value28\" = Table.ReplaceValue(#\"Replaced Value27\",907,90007,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value29\" = Table.ReplaceValue(#\"Replaced Value28\",1098,10098,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value30\" = Table.ReplaceValue(#\"Replaced Value29\",8677,86077,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value31\" = Table.ReplaceValue(#\"Replaced Value30\",8642,86042,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value32\" = Table.ReplaceValue(#\"Replaced Value31\",8614,86014,Replacer.ReplaceValue,{\"idMinisterio\"}),",
+                "    #\"Replaced Value33\" = Table.ReplaceValue(#\"Replaced Value32\",227,22007,Replacer.ReplaceValue,{\"idMinisterio\"})",
+                "in",
+                "    #\"Replaced Value33\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Historico_PAS",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navegación"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Cultivo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d453af42-92cd-46c5-af74-b60ca57034fd",
+            "sourceColumn": "Cultivo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Campaña",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8971986-4038-4d8f-9ca4-da589da29087",
+            "sourceColumn": "Campaña",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Zona",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "47fb6156-7188-47b8-b60b-eb11aff2f5e5",
+            "sourceColumn": "Zona",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sembrado (Ha)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5a6cfe3b-50e4-4c36-9177-e1f5a31b5308",
+            "sourceColumn": "Sembrado (Ha)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Perdído(Ha)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "01a8ef53-11a4-4e5d-92af-9ebd4bd9888d",
+            "sourceColumn": "Perdído(Ha)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cosechado(Ha)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f1a3aea0-eeac-42f5-8462-87919f344f19",
+            "sourceColumn": "Cosechado(Ha)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Rinde(qq/Ha)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "a8a34259-60bc-4740-a770-bbe768775608",
+            "sourceColumn": "Rinde(qq/Ha)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Producción(MTn)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "f2aa4d78-4e43-4534-a9ad-994f674ef7ab",
+            "sourceColumn": "Producción(MTn)",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "id_campañas",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "29a130a7-7da2-4b21-bee0-09190248a3d2",
+            "sourceColumn": "id_campañas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_Zona",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "ca284a95-014b-4ac9-9117-b04964359f64",
+            "sourceColumn": "id_Zona",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "ad4d6a4e-2a4e-433f-8270-87f135f91110",
+        "partitions": [
+          {
+            "name": "Historico_PAS",
+            "mode": "import",
+            "queryGroup": "Facts Tables",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\" https://bolsadecereales.com/download/datasets/Histórico_PAS\"),[Delimiter=\";\", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Promoted Headers\",\".\",\",\",Replacer.ReplaceText,{\"Rinde(qq/Ha)\"}),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Replaced Value\",{{\"Cultivo\", type text}, {\"Campaña\", type text}, {\"Zona\", type text}, {\"Sembrado (Ha)\", Int64.Type}, {\"Perdído(Ha)\", Int64.Type}, {\"Cosechado(Ha)\", Int64.Type}, {\"Rinde(qq/Ha)\", type number}, {\"Producción(MTn)\", Int64.Type}}),",
+                "    #\"Valor reemplazado\" = Table.ReplaceValue(#\"Changed Type\",\"Total\",\"TOTAL\",Replacer.ReplaceText,{\"Zona\"}),",
+                "    #\"Valor reemplazado1\" = Table.ReplaceValue(#\"Valor reemplazado\",\"XI \",\"XI\",Replacer.ReplaceText,{\"Zona\"}),",
+                "    #\"Merged Queries\" = Table.NestedJoin(#\"Valor reemplazado1\", {\"Zona\"}, Zonas, {\"Zona\"}, \"Zonas\", JoinKind.LeftOuter),",
+                "    #\"Se expandió Zonas\" = Table.ExpandTableColumn(#\"Merged Queries\", \"Zonas\", {\"id\"}, {\"id\"}),",
+                "    #\"Changed Type2\" = Table.TransformColumnTypes(#\"Se expandió Zonas\",{{\"Campaña\", type text}}),",
+                "    #\"Consultas combinadas\" = Table.NestedJoin(#\"Changed Type2\", {\"Campaña\"}, Campañas, {\"Campaña\"}, \"Campañas\", JoinKind.LeftOuter),",
+                "    #\"Se expandió Campañas\" = Table.ExpandTableColumn(#\"Consultas combinadas\", \"Campañas\", {\"id_campañas\"}, {\"id_campañas\"}),",
+                "    #\"Columnas con nombre cambiado\" = Table.RenameColumns(#\"Se expandió Campañas\",{{\"id\", \"id_Zona\"}}),",
+                "    #\"Filas filtradas\" = Table.SelectRows(#\"Columnas con nombre cambiado\", each ([Campaña] <> \"2000/2001\" and [Campaña] <> \"2001/2002\" and [Campaña] <> \"2002/2003\" and [Campaña] <> \"2003/2004\" and [Campaña] <> \"2004/2005\" and [Campaña] <> \"2005/2006\" and [Campaña] <> \"2006/2007\" and [Campaña] <> \"2007/2008\" and [Campaña] <> \"2008/2009\" and [Campaña] <> \"2009/2010\"))",
+                "in",
+                "    #\"Filas filtradas\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

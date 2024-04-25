@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Measure",
+          "size": {
+            "height": 72,
+            "width": 234
+          },
+          "zIndex": 7,
+          "expandedHeight": 359.69543275237078
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 107.8111621432931
+          },
+          "nodeIndex": "Zonas",
+          "nodeLineageTag": "d4c61bac-4c79-4d7f-a2f3-2bd881d573fa",
+          "size": {
+            "height": 173.32604476007123,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 332.9078930953624,
+            "y": 602.50610296757054
+          },
+          "nodeIndex": "Campañas",
+          "nodeLineageTag": "54fbe007-a93e-45b2-a6c3-52e8b992d919",
+          "size": {
+            "height": 156.38084224256482,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 538.2385399728895,
+            "y": 280.23104796131554
+          },
+          "nodeIndex": "Rindes Base Estimados",
+          "nodeLineageTag": "0d3e0fde-d4ec-4a05-86ea-d4ef43cfcdc6",
+          "size": {
+            "height": 229.49281926211131,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 431.13577218705768,
+            "y": 0
+          },
+          "nodeIndex": "Departamentos Ministerio",
+          "nodeLineageTag": "0d18989e-4519-48c5-bb46-84de4869903c",
+          "size": {
+            "height": 178.36227195563478,
+            "width": 234
+          },
+          "zIndex": 8
+        },
+        {
+          "location": {
+            "x": 836.16556380901989,
+            "y": 590.25481990838455
+          },
+          "nodeIndex": "Departamentos PAS",
+          "nodeLineageTag": "7a73211c-f139-4cd3-bfc2-6f5d9e41cdd6",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 5.205772001158806,
+            "y": 473.71664285811852
+          },
+          "nodeIndex": "Historico_PAS",
+          "nodeLineageTag": "ad4d6a4e-2a4e-433f-8270-87f135f91110",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 891.91526456218423,
+            "y": 0
+          },
+          "nodeIndex": "Estimaciones_Soja_Minagro",
+          "nodeLineageTag": "d272a4b9-ed97-4abe-bfac-8fba1e357968",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 2
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 99.394783675495276,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
