@@ -288,7 +288,7 @@
                     }
                   },
                   {
-                    "Superficie Nacional (MHa)": {
+                    "Superficie Nacional (MHa.)": {
                       "Source": {
                         "Agent": "PowerBI.VisualColumnRename",
                         "Type": "External"
