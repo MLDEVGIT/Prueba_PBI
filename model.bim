@@ -1354,7 +1354,7 @@
               "RETURN",
               "IF (",
               "    Zona = \"\",",
-              "    \"Superficie Nacional (MHa)\",",
+              "    \"Superficie Nacional (MHa) para ver impacto del cambio\",",
               "    \"Superficie Zona\" & \" \"",
               "        & Zona &\" (MHa)\" ",
               ")",
