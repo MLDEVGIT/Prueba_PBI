@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBIDesktopVersion",
-        "value": "2.128.952.0 (24.04)"
+        "value": "2.128.1380.0 (24.04)"
       },
       {
         "name": "PBI_QueryOrder",
@@ -1354,7 +1354,7 @@
               "RETURN",
               "IF (",
               "    Zona = \"\",",
-              "    \"Superficie Nacional (MHa) para ver impacto del cambio, otro cambio pero con el archivo abierto\",",
+              "    \"Superficie Nacional (MHa) para ver impacto del cambio\",",
               "    \"Superficie Zona\" & \" \"",
               "        & Zona &\" (MHa)\" ",
               ")",
