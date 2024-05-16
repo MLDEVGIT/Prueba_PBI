@@ -1326,7 +1326,7 @@
         "lineageTag": "027608b7-96c3-4658-b79a-cea1720baf20",
         "measures": [
           {
-            "name": "SembradoPAS",
+            "name": "SembradoPAS2",
             "expression": "SUM (Historico_PAS[Sembrado (Ha)])",
             "formatString": "0",
             "lineageTag": "829cddf7-38ce-4bf0-9a59-2f2125c3dfd0"
